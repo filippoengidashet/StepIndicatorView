@@ -14,8 +14,9 @@ public class MainActivity extends AppCompatActivity {
 
         StepIndicatorView siv = findViewById(R.id.step_indicator_view);
         siv.setStepsCount(3);
-        siv.setCurrentStepPosition(2);
-        siv.setAllTicked();
+        siv.setCurrentStepPosition(1);
+
+        //siv.setAllTicked(); Use this method if you want all to be selected
 
     }
 }
